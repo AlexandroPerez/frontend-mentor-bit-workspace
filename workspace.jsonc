@@ -10,7 +10,10 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "sass": "1.35.2"
+        "@testing-library/react": "12.0.0",
+        "sass": "1.35.2",
+        "typescript": "4.3.5",
+        "typescript-plugin-css-modules": "3.4.0"
       },
       "peerDependencies": {
         "react": "17.0.2",
@@ -18,7 +21,9 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""

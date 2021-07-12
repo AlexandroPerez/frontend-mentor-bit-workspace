@@ -1,5 +1,4 @@
 .idea/
-.vscode/
 build
 template/src/__tests__/__snapshots__/
 
